@@ -15,7 +15,10 @@
             <Pokemons />
         </template>
         <template #fallback>
-            <div>Loading...</div>   
+            <div>
+                Loading...
+                <progress/>
+            </div>   
         </template>
     </Suspense>
 </template>

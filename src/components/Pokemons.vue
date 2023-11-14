@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <article>
         <div v-for="pokemon in pokemons">
             <span>
                 <router-link :to="{ name: 'Pokemon', params: {pokemon: `${pokemon.name.toLowerCase()}`}  }">
@@ -26,7 +26,7 @@ export default {
                 </router-link>
             </span>
         </div>
-    </div>
+    </article>
 </template>
 
 <style scoped>

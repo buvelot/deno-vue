@@ -11,8 +11,8 @@
 </script>
 
 <template>
-    <div>
-        <p>Name: {{ store.pokemon.name }}</p>
+    <article>
+        <header>Name: {{ store.pokemon.name }}</header>
         <p>Description: {{ store.pokemon.description }}</p>
-    </div>
+    </article>
 </template>
