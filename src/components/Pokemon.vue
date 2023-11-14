@@ -11,8 +11,8 @@
 </script>
 
 <template>
-    <article>
+    <v-card>
         <header>Name: {{ store.pokemon.name }}</header>
         <p>Description: {{ store.pokemon.description }}</p>
-    </article>
+    </v-card>
 </template>

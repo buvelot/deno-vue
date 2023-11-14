@@ -160,7 +160,8 @@
       "vite": "vite@4.4.9",
       "vite@^4.3.9": "vite@4.4.9",
       "vue-router@^4.0.11": "vue-router@4.2.4_vue@3.3.4",
-      "vue@^3.3.4": "vue@3.3.4"
+      "vue@^3.3.4": "vue@3.3.4",
+      "vuetify@^3.4.0": "vuetify@3.4.0_vue@3.3.4"
     },
     "packages": {
       "@babel/parser@7.22.11": {
@@ -446,6 +447,12 @@
           "@vue/runtime-dom": "@vue/runtime-dom@3.3.4",
           "@vue/server-renderer": "@vue/server-renderer@3.3.4_vue@3.3.4",
           "@vue/shared": "@vue/shared@3.3.4"
+        }
+      },
+      "vuetify@3.4.0_vue@3.3.4": {
+        "integrity": "sha512-aW3bJGCUN3fhl62yvsb+Hv6TtMWDqiadN0PTbEB8jd9z46/X1ddzQ/fhMjkqBX69sMFtZvENl3YFGU5c88/8qw==",
+        "dependencies": {
+          "vue": "vue@3.3.4"
         }
       }
     }

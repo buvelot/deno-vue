@@ -1,0 +1,11 @@
+{
+    "name": "@deno/my-example-project",
+    "description": "An example app created with Deno",
+    "type": "module",
+    "scripts": {
+      "dev": "deno run --allow-env --allow-sys main.ts"
+    },
+    "dependencies": {
+      "vuetify": "^3.4.0"
+    }
+  }
